@@ -1,6 +1,6 @@
 ## Patent extraction, exploratory data analysis and modeling applications
 
-Patent files are loaded from the US Patent and Trademark Office (www.uspto.gov) and formatted to run in the extraction program.  Data from patent extraction is then plotted using exploratory data analysis or examined by natural language processing.  In some cases, the data is loaded into regression pipelines for further analysis, for instance, to predict the number of forward citations based on data within the patent.  
+Patent numbers are loaded from the US Patent and Trademark Office (www.uspto.gov) and formatted to run in the extraction program.  The extraction program downloads data from Google patent webpags.  Data from patent extraction is then plotted using exploratory data analysis or examined by natural language processing.  In some cases, the data is loaded into regression pipelines for further analysis, for instance, to predict the number of forward citations based on data within the patent.  
 
 df_patents = patent dataframe 
 
